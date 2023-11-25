@@ -1,3 +1,4 @@
 # Requirements without version specifiers
 fastapi[all]
 requests
+lxml

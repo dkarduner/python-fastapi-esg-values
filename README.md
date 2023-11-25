@@ -1,11 +1,13 @@
 B"H
-# Python FastAPI
+# Python FastAPI Example
 Script to start a FastAPI server.
 
-## ESG index: Environmental, Social, and Governance index
-The API retrieve data from Environmental, Social, and Governance index (the 'ESG index').
-It uses the "ricCode" to extract data from:
-https://www.refinitiv.com/bin/esg/esgsearchresult
+## Markets insiders
+The API retrieve stock data from markets.businessinsider.com
+
+## Usage 
+/stocksName : retrieve a list with S&P500 companies names and stocks names.
+/stockPrice/{stock}: retrieve last 30 days prices - one per day.
 
 ## Conda environment (recommended)
 Install conda / update current version:

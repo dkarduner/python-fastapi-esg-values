@@ -12,10 +12,13 @@ The API retrieve stock data from markets.businessinsider.com
 
 ## Conda environment (recommended)
 Install conda / update current version:
+
 $ conda --version
+
 $ conda update conda
 
 Create new environment:
+
 $ conda create --name {new_env} python=3.11
 
 $ conda activate {new_env}

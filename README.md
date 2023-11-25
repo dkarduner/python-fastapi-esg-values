@@ -7,6 +7,7 @@ The API retrieve stock data from markets.businessinsider.com
 
 ## Usage 
 /stocksName : retrieve a list with S&P500 companies names and stocks names.
+
 /stockPrice/{stock}: retrieve last 30 days prices - one per day.
 
 ## Conda environment (recommended)
